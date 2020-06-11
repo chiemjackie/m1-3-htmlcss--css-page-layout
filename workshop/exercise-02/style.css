@@ -4,6 +4,29 @@ body {
 
 .nav {
   background-color: #3a3639;
-  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
 }
 
+.logo {
+  display: block;
+}
+
+.nav > a {
+  text-decoration: none;
+  color: white;
+  margin: 0 40px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.1s ease-in-out
+}
+
+.logo {
+  display: block;
+}
+
+.nav > a:hover {
+  opacity: 0.5;
+}
